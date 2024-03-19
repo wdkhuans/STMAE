@@ -1,0 +1,64 @@
+{
+    "pamap_100_300": {
+        "sr": 100,
+        "seq_len": 300,
+        "dimension": 27,
+        "node_num": 3,
+        "node_dim": 9,
+        "activity_label_index": 23,
+        "activity_label_size": 12,
+        "activity_label": ["Lying", "Sitting", "Standing", "Walking", "Running", "Cycling", "Nordic walking",
+        "Ascending stairs", "Descending stairs", "Vacuum cleaning", "Ironing", "Rope jumping"],
+        "user_label_index": 8,
+        "user_label_size": 8,
+        "size": 12902
+    },
+    "realdisp_50_150": {
+        "sr": 50,
+        "seq_len": 150,
+        "dimension": 81,
+        "node_num": 9,
+        "node_dim": 9,
+        "activity_label_index": 23,
+        "activity_label_size": 33,
+        "activity_label": [
+            "Walking","Jogging","Running","Jump up","Jump front & back","Jump sideways","Jump leg/arms open/closed","Jump rope","Trunk twist (arms outstretched)",
+            "Trunk twist (elbows bended)","Waist bends forward","Waist rotation","Waist bends (reach foot with opposite hand)","Reach heels backwards",
+            "Lateral bend","Lateral bend arm up","Repetitive forward stretching","Upper trunk and lower body opposite twist","Arms lateral elevation",
+            "Arms frontal elevation","Frontal hand claps","Arms frontal crossing","Shoulders high amplitude rotation","Shoulders low amplitude rotation",
+            "Arms inner rotation", "Knees (alternatively) to the breast","Heels (alternatively) to the backside","Knees bending (crouching)","Knees (alternatively) bend forward",
+            "Rotation on the knees","Rowing","Elliptic bike", "Cycling"],
+        "user_label_index": 8,
+        "user_label_size": 10,
+        "size": 6280
+    },
+    "opp_30_60": {
+        "sr": 30,
+        "seq_len": 60,
+        "dimension": 45,
+        "node_num": 5,
+        "node_dim": 9,
+        "activity_label_index": 23,
+        "activity_label_size": 17,
+        "activity_label":  ["Open Door 1","Open Door 2","Close Door 1","Close Door 2","Open Fridge", "Close Fridge", 
+        "Open Dishwasher", "Close Dishwasher", "Open Drawer 1", "Close Drawer 1", "Open Drawer 2","Close Drawer 2",
+         "Open Drawer 3", "Close Drawer 3", "Clean Table", "Drink from Cup", "Toggle Switch"],
+        "user_label_index": 8,
+        "user_label_size": 4,
+        "size": 8165
+    },
+    "realworld_50_150": {
+        "sr": 50,
+        "seq_len": 150,
+        "dimension": 63,
+        "node_num": 7,
+        "node_dim": 9,
+        "activity_label_index": 23,
+        "activity_label_size": 8,
+        "activity_label":  ["Climbingdown", "Climbingup", "Jumping", "Lying", "Running", "Sitting", "Standing", "Walking"],
+        "user_label_index": 8,
+        "user_label_size": 13,
+        "size": 39281
+    }
+}
+

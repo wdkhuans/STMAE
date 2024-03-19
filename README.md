@@ -33,7 +33,7 @@ Links of raw datasets:
  - Realdisp: https://archive.ics.uci.edu/ml/datasets/REALDISP+Activity+Recognition+Dataset
  - PAMAP: https://archive.ics.uci.edu/dataset/231/pamap2+physical+activity+monitoring
 
-# 4 Training & Testing
+# 3 Training & Testing
 
 Here is the descriptions about the arguments:
 | Argument| Description |
@@ -51,7 +51,7 @@ You can change the config depending on what you want:
 python main.py --test_user <test_user>  --dataset <dataset> --gpu <gpu>  --model_file <model_file>  --label_index <label_index> --seed <seed> --save_model <save_model>
 ```
 
-# 5 Citation
+# 4 Citation
 
 If you find this work useful, please consider to cite as follows:
 
@@ -66,6 +66,6 @@ If you find this work useful, please consider to cite as follows:
         publisher={ACM New York, NY, USA}
     }
 
-# 6 Acknowledgements
+# 5 Acknowledgements
   
 The authors wish to thank the anonymous reviewers for their constructive comments on this work. This repo is based on [dapowan/LIMU-BERT-Public](https://github.com/dapowan/LIMU-BERT-Public) and [facebookresearch/mae](https://github.com/facebookresearch/mae). Great thanks to the original authors for their work.
